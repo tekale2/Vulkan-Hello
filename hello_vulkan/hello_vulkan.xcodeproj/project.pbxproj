@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6322FFE621AE16F6001D8235 /* shaders in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6322FFE521AE1651001D8235 /* shaders */; };
 		638F578421A48F5C00B19CF6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 638F578321A48F5C00B19CF6 /* main.cpp */; };
 		638F578C21A4B8DC00B19CF6 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 638F578B21A4B8DC00B19CF6 /* libglfw.3.3.dylib */; };
 		638F578E21A4B90200B19CF6 /* libvulkan.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 638F578D21A4B90200B19CF6 /* libvulkan.1.dylib */; };
@@ -21,8 +22,9 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
 			dstPath = "";
-			dstSubfolderSpec = 10;
+			dstSubfolderSpec = 7;
 			files = (
+				6322FFE621AE16F6001D8235 /* shaders in CopyFiles */,
 				638F579121A4B98000B19CF6 /* libvulkan.1.1.85.dylib in CopyFiles */,
 				638F579221A4B98000B19CF6 /* libvulkan.1.dylib in CopyFiles */,
 				638F579321A4B98000B19CF6 /* libglfw.3.3.dylib in CopyFiles */,
@@ -32,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6322FFE521AE1651001D8235 /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
 		638F578021A48F5C00B19CF6 /* hello_vulkan */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hello_vulkan; sourceTree = BUILT_PRODUCTS_DIR; };
 		638F578321A48F5C00B19CF6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		638F578B21A4B8DC00B19CF6 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../../../usr/local/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
@@ -73,6 +76,7 @@
 		638F578221A48F5C00B19CF6 /* hello_vulkan */ = {
 			isa = PBXGroup;
 			children = (
+				6322FFE521AE1651001D8235 /* shaders */,
 				638F578321A48F5C00B19CF6 /* main.cpp */,
 			);
 			path = hello_vulkan;
